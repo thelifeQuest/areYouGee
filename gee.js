@@ -11,9 +11,9 @@ function nameChecker(){
     }   else if(name == "Ali"  ||	name == "ali" ){
         document.getElementById("span2").innerText="YOU ARE A GOD"; 
         
-    }else{
+    } else if(name == "Denis"  ||	name == "denis" ){
+        document.getElementById("span2").innerText="You're worse! You're a fucking bully and a homophobe!!"; 
+  } else{
         document.getElementById("span2").innerText="Naah bro, you're fine"; 
-
     }
-
     }
