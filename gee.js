@@ -1,7 +1,7 @@
 function nameChecker(){
     var name;
     name = document.getElementById("Name").value; 
-    if(name == "Adrian" ||	name == "adrian" ||	name == "Betschart" ||	name == "betschart"){
+    if(name == "Adrian" ||	name == "adrian" ||	name == "Betschart" ||	name == "betschart" ||	name == "Haydar" ||	name == "haydar"){
        document.getElementById("span2").innerText="You are so fucking gee"; 
 
     }  else if(name == "Andreas"  ||	name == "andreas" ){
